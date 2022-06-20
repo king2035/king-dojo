@@ -209,22 +209,6 @@ export const mockData = {
       },
       relational: [],
       testCase: [],
-      colData: [
-          [
-              {
-                  card: []
-              },
-              {
-                  card: []
-              },
-          ],
-          [
-              {},
-              {},
-              {},
-              {},
-          ]
-      ],
       children: [
         {
           property: {

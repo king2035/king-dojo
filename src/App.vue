@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <demand-matrix></demand-matrix>
+    <!-- <demand-matrix></demand-matrix> -->
     <!-- <recursionDemo /> -->
+    <demand-matrix-table />
   </div>
 </template>
 
 <script>
 
 // import recursionDemo from '@/views/recursion-demo'
-import demandMatrix from '@/views/demand-matrix'
+// import demandMatrix from '@/views/demand-matrix'
+import demandMatrixTable from '@/views/demand-matrix-table'
 export default {
   name: 'App',
   components: {
-    demandMatrix
+    // demandMatrix
     // recursionDemo
+    demandMatrixTable
   }
 }
 </script>
